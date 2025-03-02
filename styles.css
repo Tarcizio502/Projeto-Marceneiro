@@ -1,0 +1,116 @@
+ 
+     *{  
+        margin: 0;  
+        padding: 0; 
+        box-sizing: border-box; 
+     }  
+   
+
+    video{    
+          
+          width: 50vw;  
+          height: 50vh;  
+          position: sticky; 
+          top: 30px;  
+          left: 285px;       
+    }   
+   
+    .slider {       
+      position: absolute;
+      width: 160px; 
+      height: 160px;  
+      margin: 0;  
+      padding: 0;    
+      bottom: 20px;
+      left: 25px;  
+      border-radius: 4px;  
+      overflow: hidden;
+        } 
+
+        .slides {  
+            width: 160%;  
+            height: 160px;  
+            display: flex;
+  }
+      
+  .slides input {  
+                  display: none;
+                  }  
+  
+   .cad-coz first {  
+          width: 25%;  
+          position: relative;   
+   }  
+
+   .cad img {  
+              width: 160px;  
+              height: 160px;  
+   }  
+    
+   .manual-navegation {  
+                        position: absolute;  
+                        width: 160px;  
+                        margin-top: -10px;   
+                        left: 25px;   
+                        bottom: 20px;
+                        display: flex; 
+                        justify-content: center;  
+                         }
+  
+                         .manual-btn {  
+                              border: 2px solid black;  
+                              padding: 5px;  
+                              border-radius: 10px;  
+                              cursor: pointer;  
+                              transition: 1s;  
+                }
+         
+                .manual-btn:not(:last-child){   
+                                              margin-right: 4%;  
+                                              }
+       
+                .manual-btn:hover {  
+                                    background-color: black;  
+                                   }
+          
+                 #radio1:checked ~ .first{   
+                                          margin-left: 0; 
+                                          }  
+      
+                #radio2:checked ~ .first{   
+                                         margin-left: -62%;
+                                         }                               
+                
+                #radio3:checked ~ .first{  
+                                         margin-left: -124%;  
+                                          }  
+
+                #radio4:checked ~ .first{   
+                                         margin-left: -186%;              
+                                         }
+
+                #radio5:checked ~ .first{      
+                                         margin-left: -248%;
+                                          }   
+
+               #radio6:checked ~ .first{  
+                                        margin-right: -310%;
+                                        }
+
+              #radio7:checked ~ .first{  
+                                       margin-left: -374%;
+                                        }
+
+              #radio8:checked ~ .first{  
+                                       margin-left: -437%;
+                                        }
+                
+             .slider1  {  
+                        position: relative;  
+                        left: 800px;  
+                        bottom: 1350px;
+             }
+     
+ 
+     
+
